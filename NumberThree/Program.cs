@@ -15,9 +15,9 @@ void Print(int[] array)
     Console.Write("[");
     for (int index = 0; index < array.Length - 1; ++index)
     {
-        Console.Write($"{array[index]}, ");
+        Console.Write($"{array[index]} ");
     }
-    Console.Write($"{array[array.Length - 1]} ");
+    Console.Write($"{array[array.Length - 1]}");
     Console.WriteLine("]");
 }
 int length = 7;
